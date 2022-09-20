@@ -1,6 +1,6 @@
 import { Children, cloneElement, useState, useEffect } from "react";
 
-//This is not dynamic, will just work at first shot
+//This is not dynamic, will just work at first load
 const Switch = ({ predicate, children }) => {
   const [match, setMatch] = useState(false);
   const handleMatch = () => setMatch(true);
